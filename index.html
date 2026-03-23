@@ -1,0 +1,29 @@
+<div class="card">
+  <h1>🏠 空間面積換算機</h1>
+  
+  <section class="info">
+   
+    
+    <h3>使用說明</h3>
+    <ul>
+      <li>在「輸入數值」框中輸入面積。</li>
+      <li>選擇您輸入的單位（預設為平方公尺）。</li>
+      <li>下方會即時顯示轉換後的坪數與平方公分。</li>
+    </ul>
+  </section>
+
+  <div class="converter-box">
+    <input type="number" id="inputVal" placeholder="輸入數值..." value="1">
+    <select id="unitSelect">
+      <option value="m2">平方公尺 (m²)</option>
+      <option value="cm2">平方公分 (cm²)</option>
+      <option value="ping">坪</option>
+    </select>
+    
+    <div class="results">
+      <div class="res-row">坪數: <span id="res-ping">0.30</span> 坪</div>
+      <div class="res-row">平方公尺: <span id="res-m2">1.00</span> m²</div>
+      <div class="res-row">平方公分: <span id="res-cm2">10000</span> cm²</div>
+    </div>
+  </div>
+</div>
