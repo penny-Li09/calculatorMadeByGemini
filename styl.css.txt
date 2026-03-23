@@ -1,0 +1,7 @@
+body { background: #f0f2f5; font-family: sans-serif; display: flex; justify-content: center; padding: 20px; }
+.card { background: white; padding: 25px; border-radius: 12px; max-width: 450px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+h1 { color: #2c3e50; font-size: 1.4rem; text-align: center; }
+.converter-box { background: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 20px; }
+input, select { width: 100%; padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+.results { margin-top: 20px; font-weight: bold; color: #e67e22; }
+.res-row { margin: 10px 0; border-bottom: 1px solid #eee; padding-bottom: 5px; }
